@@ -12,7 +12,7 @@ export interface RespuestaPerros {
 })
 export class PerroService {
 
-    private url = 'https://dog.ceo/api/breeds/image/random/9';
+    private url = 'https://dog.ceo/api/breeds/image/random/6';
 
     constructor(private http: HttpClient) { }
 
